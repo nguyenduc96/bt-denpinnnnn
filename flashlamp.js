@@ -20,7 +20,7 @@ class FlashLamp {
     turnOff(){
         this.status = false;
     }
-}
+};
 let flashLamp = new FlashLamp(battery);
 flashLamp.getBatteryInfo();
 for (let i = 10; i >= 0 ; i--) {
